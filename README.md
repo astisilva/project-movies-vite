@@ -25,7 +25,7 @@ npm i && code . && npm run dev
 - To start this project, I used lessons to fetch movie info. For easy navigation, I used React Router, a tool helping create different pages and links. Plus, I used useParams to customize the user experience based on specific movie details. If I had troubled I googled and asked chat gpt
 ### View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://legendary-eclair-8d8add.netlify.app/movies/507089
 
 ## Instructions
 
