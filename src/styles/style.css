@@ -36,6 +36,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+   
 }
 
 
@@ -44,6 +45,7 @@ a {
 
 .movie-card {
   position: relative;
+  
 }
 
 .movie-card-image {
@@ -92,6 +94,7 @@ a {
 .info-image {
   width: 100%;
   background-size: cover;
+  
 
 }
 
@@ -104,6 +107,7 @@ a {
   transform: translate(-50%, -50%);
   color: white;
   max-width: 70%;
+  
 }
 
 .info-image-mini {
@@ -117,6 +121,7 @@ a {
   display: flex;
   flex-direction: column;
   text-shadow: 1px 1px #4d4d4d;
+  
 }
 
 
