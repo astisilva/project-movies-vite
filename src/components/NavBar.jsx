@@ -1,13 +1,14 @@
-import { Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import HomeIcon from '../assets/home-icon.svg'
+import '../styles/style.css'; 
+
 
 export const NavBar = () => {
   return (
 
     <nav>
-      <h1>Movies</h1>
-      <ul>
-       <li><NavLink to="/">Home to movie list</NavLink> </li>
-       <li><NavLink to="/movies">Movie</NavLink> </li>
+      <ul>      
+       <li><NavLink to="/"> <img className="home-icon" src={HomeIcon} alt="Home-icon" />Movies</NavLink> </li>
       </ul>
     </nav>
   )
