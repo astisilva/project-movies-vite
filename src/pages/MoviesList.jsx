@@ -16,11 +16,11 @@ export const MoviesList = () => {
       .then(response => response.json())
       .then(data => {
         setMovies(data.results);
-        setLoading(false); // Set loading to false when data is loaded
+        setLoading(false);
       })
       .catch(err => {
         console.error(err);
-        setLoading(false); // Handle errors and set loading to false
+        setLoading(false); 
       });
   }, []);
 
